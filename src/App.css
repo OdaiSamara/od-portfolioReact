@@ -1,0 +1,207 @@
+* {
+  scroll-behavior: smooth;
+}
+
+img {
+  transition: 0.5s;
+}
+
+.prog-animation {
+  transition: 1s;
+
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.bg-service {
+  transition: 0.5s;
+
+}
+
+.bg-service:hover {
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 4px 2px;
+
+}
+
+
+@media (max-width:768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .hero {
+    margin-left: 50%;
+    margin-top: 100%;
+
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+
+  }
+
+  .img-about {
+    display: none;
+
+
+  }
+
+  .about-h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .about-p {
+    font-size: 10px;
+    text-align: center;
+
+  }
+
+  .about-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    width: 100%;
+
+  }
+
+  .od-m-about {
+    margin-left: -40px;
+  }
+
+  .resume {
+    text-align: center;
+    font-size: 10px;
+
+  }
+
+  .res-border {
+    border-left: none !important;
+  }
+
+  .portfolio {
+    text-align: center;
+  }
+
+  .port-p {
+    text-align: center;
+
+    font-size: 10px;
+  }
+
+  .port-width {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .port-padding {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .test-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .d-flex {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .od-width {
+    width: 100%;
+  }
+
+  .od-input {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+
+}
+
+
+@media (max-width:996px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portSize {
+    min-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .od-width {
+    width: 100%;
+  }
+
+  .od-input {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width:1115px) {
+  .responsev {
+    margin-left: 180px;
+  }
+  .od-width {
+    width: 100%;
+  }
+
+  .od-input {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+@media (max-width:1400px) {
+  .responsev {
+    margin-left: 160px;
+  }
+  .od-width {
+    width: 100%;
+  }
+
+  .od-input {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
